@@ -48,9 +48,21 @@ document.querySelector(".true5").onclick = function(){
     document.querySelector(".questionbox5").style.display = "none"
     document.querySelector(".questionbox6").style.display = "flex"
 }
+
 document.querySelector(".false5-1").onclick = function(){
     alert("Неправильно!")
 }
 document.querySelector(".false5-2").onclick = function(){
+    alert("Неправильно!")
+}
+document.querySelector(".true6").onclick = function(){
+    alert("Правильно! Молодец!")
+    document.querySelector(".questionbox6").style.display = "none"
+    document.querySelector(".questionbox7").style.display = "flex"
+}
+document.querySelector(".false6-1").onclick = function(){
+    alert("Неправильно!")
+}
+document.querySelector(".false6-2").onclick = function(){
     alert("Неправильно!")
 }
